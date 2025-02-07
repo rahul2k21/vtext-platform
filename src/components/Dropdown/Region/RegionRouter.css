@@ -1,0 +1,33 @@
+.region-header {
+  padding: 16px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.region-title {
+  font-size: 24px;
+}
+
+.country-item {
+  font-size: 16px;
+  padding: 16px;
+}
+
+.country-item:hover {
+  background-color: rgb(227, 229, 235);
+  border-radius: 10px;
+}
+
+.region-content {
+  max-height: 500px;
+  overflow-y: auto; 
+  border-radius: 4px; 
+  padding: 8px; 
+}
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+}
